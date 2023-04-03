@@ -1,0 +1,58 @@
+body {
+    background-color: #fff8f5;
+    font-family:Georgia;
+}
+
+.fondo {
+    background-image: url(assets/images/background.png);
+    height: 700px;
+    width: 1420px;
+}
+
+.carrusel {
+    background-color: #fff8f5;
+    height:300px;
+}
+
+.textcarrusel {
+    color: black;
+}
+
+.iconprev {
+    background-image: url(assets/images/previcon.png);
+}
+
+.iconnext {
+    background-image: url(assets/images/nexticon.svg);
+}
+
+.botoncarrusel {
+    background-color: black !important;
+}
+
+.acarrusel {
+    color: black, var(--bs-link-opacity,1);
+    text-decoration: underline;
+}
+
+.subscribe {
+    background-color: #fff8f5;
+    border-color: black;
+    color: black;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: black;
+    --bs-btn-disabled-border-color: black;
+}
+
+
